@@ -1,5 +1,5 @@
 ; call to start the interpreter
-(define (plan program bindings)
+(define (plan program)
     (cond
         ; handles case where 'program' is only a <const>
         ((integer? program) program)
